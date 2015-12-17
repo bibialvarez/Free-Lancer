@@ -1,1 +1,102 @@
-/* Inserta tu código aqui */
+body{
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+	font-family: Verdana;
+}
+li{
+	list-style-type:none; 
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+/**************************BACKGROUND*************************/
+.top,.footer{
+	background: #2b3d4f; 
+}
+.bg-turquesa{
+background: #18ba9a;
+}
+/**************************MENU*************************/
+.menu{
+	float: right;
+}
+.menu li{
+	float: left;
+	padding: 20px;
+}
+.menu li a:hover{
+	background: black;
+	padding: 10px;
+}
+.logo{
+	font-size: 30px;
+	display: inline-block;	
+}
+.logo p{
+	margin-top: 7px;
+}
+/**************************TEXTO COLOR*************************/
+.text-white{
+	color: white;
+}
+.text-black{
+	color: black;
+}
+.text-bold{
+	font-weight: bold;
+	font-size: 40px;
+}
+.turquesa{
+	color: #18ba9a;
+}
+/**************************STAR*************************/
+.line{
+	height: 3px;
+	width: 80px;
+	background: white;
+	display: inline-block;
+	margin-bottom: 3px;
+}
+.linen{
+	height: 3px;
+	width: 80px;
+	background: black;
+	display: inline-block;
+	margin-bottom: 3px;
+}
+/**************************FOOTER*************************/
+.abc-small{
+	font-size: 10px;
+	background: #233140;
+}
+.redes i{
+	font-size: 35px;
+	padding: 5px;
+}
+.redes div{
+	display: inline-block;
+	border-radius: 50%;
+	border: 1px solid white;
+	height: 50px;
+	width: 50px;
+}
+.footer .row{
+	padding:20px 0; 
+}
+.turquesa{
+	color: #18ba9a;
+}
+/**************************CLASES COMUNES*************************/
+.pd{
+	padding: 40px;
+}
+
+.mgl30{
+	margin-left: 30px;
+}
+.radius{
+	border-radius: 50%;
+	width: 10%;
+}
